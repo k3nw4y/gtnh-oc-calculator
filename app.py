@@ -37,7 +37,7 @@ def calculate():
                 amps = eu / 2 ** ((machineTier * 2) + 3)
             if recipeTier == 0 and recipeTier != machineTier:
                 seconds *= 2
-                amps /= 4
+                #amps /= 4
             result=("That " + tier[int(recipeTier)] + " recipe will take " + "{:,.2f}".format(seconds) + " seconds to complete and will use " + str(amps) + " amps with an " + tier[int(machineTier)] + " tier machine!")
             return render_template('app.html', result=result)
         except ValueError as error:
