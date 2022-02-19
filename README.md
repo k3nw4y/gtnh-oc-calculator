@@ -1,4 +1,4 @@
-# gtnh-oc-calculator
+# [gtnh-oc-calculator](https://gtnh-oc.herokuapp.com/)
 to run/dev locally
 
 `git clone https://github.com/k3nw4y/gtnh-oc-calculator.git`
